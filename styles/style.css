@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@200&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+* header {
+    background-color: #CDBBA7;
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+    height: 2cm;
+    padding: 30px;
+    margin-top: 0;
+    position: sticky;
+    display: grid;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+    padding: 80px;
+    padding-left: 200px;
+    margin-left: 0%;
+    position: sticky;
+}
+
+ul li {
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+article {
+    color: black;
+    margin-left: 5%;
+}
+
+body {
+    background-color: #FDEFEF;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    height: 95px;
+    color: black;
+    font-size: 60px;
+    padding: 40px;
+    padding-left: 5%;
+    margin-top: auto;
+    font-family: 'Playfair Display', serif;
+    ;
+}
+
+.banner {
+    padding: 10px;
+    margin-left: 75px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+    height: 350px;
+    width: 500 px;
+}
+
+h2 {
+    height: 95px;
+    color: black;
+    font-size: 40px;
+    padding: 0;
+    padding-left: 100px;
+    margin-top: 60px 100px 0px 60px;
+    font-family: 'Playfair Display', serif;
+    ;
+}
+
+img {
+    padding: 25px;
+    margin-left: 90px;
+    margin: top 0;
+    margin-right: 50px;
+    height: auto;
+    width: auto;
+}
+
+.vistaProd {
+    height: 300px;
+    width: 300 px;
+    border: 2px solid black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+p {
+    color: black;
+    padding: 10px;
+    margin-right: 400px;
+    margin-top: 0;
+    margin-left: 90px;
+}
+
+p {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.linkASections {
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    padding: 10px;
+    margin-right: 400px;
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+
+.grilla {
+    display: grid;
+    height: 1900px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 24px 4%;
+    grid-template-areas:
+        "principal ."
+        "galeria galeria"
+        "footer footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.galeria-grid {
+    grid-area: galeria;
+}
+
+.galeria-grid img {
+    border: 3px solid black;
+    width: 350px;
+    height: 350px;
+    margin-top: 15px;
+
+}
+
+.prod {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    height: 1000px;
+    justify-content: first baseline;
+    gap: 55px;
+    align-items: end;
+
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #CDBBA7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5E454B;
+    margin-bottom: 0;
+    margin-top: 35px;
+
+}
+
+footer {
+    background-color: #CDBBA7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5E454B;
+    margin-bottom: 0;
+    margin-top: 35px;
+}
+
+/*Estilos para recipes*/
+
+.home.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 100px;
+
+}
