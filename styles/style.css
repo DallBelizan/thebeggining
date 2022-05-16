@@ -56,7 +56,7 @@ h1 {
     height: 95px;
     color: black;
     font-size: 60px;
-    padding: 40px;
+    padding: 10px;
     padding-left: 5%;
     margin-top: auto;
     font-family: 'Playfair Display', serif;
@@ -126,18 +126,6 @@ p {
 }
 
 
-.grilla {
-    display: grid;
-    height: 1900px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    gap: 24px 4%;
-    grid-template-areas:
-        "principal ."
-        "galeria galeria"
-        "footer footer";
-}
-
 .header {
     grid-area: header;
 }
@@ -183,11 +171,24 @@ footer {
     margin-top: 35px;
 }
 
-/*Estilos para recipes*/
+/*Estilos para home*/
 
 .home.grid-container {
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 100px;
 
+}
+
+/*Estilos para recipes*/
+
+.recipes-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+article {
+    font-size: larger;
 }
