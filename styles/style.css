@@ -195,7 +195,7 @@ footer {
 
 @keyframes prods {
     0% {
-        transform: scale(3);
+        transform: scale(2);
         border-radius: 5px;
     }
 }
