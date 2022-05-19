@@ -6,36 +6,40 @@
     margin: 0%;
 }
 
-* header {
+/*Estilos universales*/
+
+ header { 
     background-color: #CDBBA7;
     font-size: large;
     font-family: 'Raleway', sans-serif;
-    height: 2cm;
-    padding: 30px;
+    height: 2cm ;
+    padding: 30px ;
     margin-top: 0;
     position: sticky;
-    display: grid;
+    display: grid ;
 }
 
+/*Estilos para navbar*/
+
 nav ul li {
-    display: inline-block;
+    display: inline-block ;
 }
 
 nav ul li a {
-    text-decoration: none;
-    list-style: none;
+    text-decoration: none ;
+    list-style: none ;
     color: black;
-    font-size: larger;
-    font-family: 'Raleway', sans-serif;
-    padding: 80px;
-    padding-left: 200px;
-    margin-left: 0%;
+    font-size: larger ;
+    font-family: 'Raleway', sans-serif ;
+    padding: 80px ;
+    padding-left: 200px ;
+    margin-left: 0% t;
     position: sticky;
 }
 
 ul li {
     list-style-type: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
 
@@ -53,25 +57,16 @@ body {
 }
 
 h1 {
-    height: 95px;
+    height: 95px ;
     color: black;
-    font-size: 60px;
-    padding: 10px;
-    padding-left: 5%;
-    margin-top: auto;
+    font-size: 60px ;
+    padding: 10px ;
+    padding-left: 5% ;
+    margin-top: auto ;
     font-family: 'Playfair Display', serif;
     ;
 }
 
-.banner {
-    padding: 10px;
-    margin-left: 75px;
-    margin-top: 10px;
-    margin-right: 50px;
-    margin-bottom: 80px;
-    height: 350px;
-    width: 500 px;
-}
 
 h2 {
     height: 95px;
@@ -107,10 +102,6 @@ p {
     margin-right: 400px;
     margin-top: 0;
     margin-left: 90px;
-}
-
-p {
-    color: black;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -180,6 +171,17 @@ footer {
 
 }
 
+.banner {
+    padding: 10px;
+    margin-left: 75px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+    height: 350px;
+    width: 500 px;
+}
+
+
 /*Estilos para recipes*/
 
 .recipes-grid-container {
@@ -204,3 +206,10 @@ footer {
 article {
     font-size: larger;
 }
+
+/*Estilos para contacto*/
+
+.message-lectores {
+    font-size: medium;
+}
+
