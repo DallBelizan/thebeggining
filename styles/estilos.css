@@ -18,12 +18,7 @@ header {
 }
 
 /*Estilos para navbar*/
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  text-decoration: none;
+.navbar {
   list-style: none;
   color: black;
   font-size: larger;
@@ -33,11 +28,6 @@ nav ul li a {
   margin-left: 0% t;
   position: -webkit-sticky;
   position: sticky;
-}
-
-ul li {
-  list-style-type: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 article {
@@ -64,7 +54,7 @@ h1 {
   font-size: 60px;
   padding: 10px;
   padding-left: 5%;
-  margin-top: auto;
+  margin-top: 150px;
   font-family: 'Playfair Display', serif;
 }
 
@@ -175,12 +165,21 @@ footer {
 
 .banner {
   padding: 10px;
-  margin-left: 75px;
+  margin-left: 45px;
   margin-top: 10px;
   margin-right: 50px;
   margin-bottom: 80px;
   height: 350px;
-  width: 500 px;
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 425px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img .bannercanva {
+  width: 100%;
+  border-radius: 10px;
 }
 
 /*Estilos para recipes*/
@@ -222,4 +221,3 @@ article {
 .message-lectores {
   font-size: medium;
 }
-/*# sourceMappingURL=estilos.css.map */
