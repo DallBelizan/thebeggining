@@ -5,40 +5,29 @@
 
 /*Estilos universales*/
 
- header { 
+header {
     background-color: #CDBBA7;
     font-size: large;
     font-family: 'Raleway', sans-serif;
-    height: 2cm ;
-    padding: 30px ;
+    height: 2cm;
+    padding: 30px;
     margin-top: 0;
     position: sticky;
-    display: grid ;
+    display: grid;
 }
 
 /*Estilos para navbar*/
 
-nav ul li {
-    display: inline-block ;
-}
-
-nav ul li a {
-    text-decoration: none ;
-    list-style: none ;
+.navbar {
+    list-style: none;
     color: black;
-    font-size: larger ;
-    font-family: 'Raleway', sans-serif ;
-    padding: 80px ;
-    padding-left: 200px ;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+    padding: 80px;
+    padding-left: 200px;
     margin-left: 0% t;
     position: sticky;
 }
-
-ul li {
-    list-style-type: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-}
-
 
 article {
     color: black;
@@ -54,12 +43,12 @@ body {
 }
 
 h1 {
-    height: 95px ;
+    height: 95px;
     color: black;
-    font-size: 60px ;
-    padding: 10px ;
-    padding-left: 5% ;
-    margin-top: auto ;
+    font-size: 60px;
+    padding: 10px;
+    padding-left: 5%;
+    margin-top: 150px;
     font-family: 'Playfair Display', serif;
     ;
 }
@@ -170,12 +159,21 @@ footer {
 
 .banner {
     padding: 10px;
-    margin-left: 75px;
+    margin-left: 45px;
     margin-top: 10px;
     margin-right: 50px;
     margin-bottom: 80px;
     height: 350px;
-    width: 500 px;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 425px;
+    box-sizing: border-box;
+
+}
+
+img .bannercanva {
+    width: 100%;
+    border-radius: 10px;
 }
 
 /*Estilos para recipes*/
